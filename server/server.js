@@ -16,7 +16,7 @@ app.get("/", function(request, response){
 
 
 // start the server
-app.listen("https://mini-stack-server.onrender.com/", function (){
+app.listen("/", function (){
   console.log("Server is listening");
 });
 
