@@ -11,7 +11,7 @@ async function getMessage() {
   // put message on the page
 
   const p = document.getElementById("message");
-  p.textContent = json.getMessage;
+  p.textContent = json.message;
 
 }
 
