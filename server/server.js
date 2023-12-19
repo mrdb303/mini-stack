@@ -16,7 +16,7 @@ app.get("/message", function(request, response){
 
 
 // start the server
-app.listen("https://mini-stack-client-db.onrender.com/", function (){
+app.listen("https://mini-stack-server.onrender.com/", function (){
   console.log("Server is listening to port 8080");
 });
 
