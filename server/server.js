@@ -10,14 +10,14 @@ app.use(cors()); // middleware
 
 
 // endpoint
-app.get("/message", function(request, response){
+app.get("/", function(request, response){
   response.json({ message: "Hiya, here's my reply"});
 });
 
 
 // start the server
 app.listen("https://mini-stack-server.onrender.com/", function (){
-  console.log("Server is listening to port 8080");
+  console.log("Server is listening");
 });
 
 // Make sure you run 'node server' to run this file and
