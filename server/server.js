@@ -10,14 +10,14 @@ app.use(cors()); // middleware
 
 
 // endpoint
-app.get("/", function(request, response){
+app.get("/message", function(request, response){
   response.json({ message: "Hiya, here's my reply"});
 });
 
 
 // start the server
-app.listen("/", function (){
-  console.log("Server is listening");
+app.listen(8080, function (){
+  console.log("Server is listening on port 8080");
 });
 
 // Make sure you run 'node server' to run this file and
